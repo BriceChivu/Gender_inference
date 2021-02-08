@@ -36,7 +36,7 @@ Models do not like categorical feature, they prefer binary values. We will chang
 Our dataset has 191,287 records, which correspond to the number of customer_id. There is no duplicate nor missing value in our data. <br/>
 Taking a quick look at each individual feature, there are few comments we can make.
   - In average, customers' first order was more than 6 years ago.
-  - The last order was made more than 2 years ago in average. Less than 5% of customers have ordered an item less than a week ago (note that we do not know when this dataset was pulled out).
+  - The last order was made more than 2 years ago in average. Less than 5% of customers have ordered an item less than a week ago (from the dataset today's date reference).
   - The data has numerous significant outliers. Some of them are suspicious.
       - Is it really possible to have used 1,122 different shipping addresses? Even for 6 years, that represents more than 15 different shipping addresses per month...
       - 2,022 returns out of 2,209 items purchased for 1 particular customer, really? That's a truly unhappy client...
