@@ -33,5 +33,9 @@ I suggest to read them in order.
 This section is dedicated to EDA. We will explore the data, ask ourselves question, visualize features, and more. <br/>
 Looking at the type of our 33 features, one can note the presence of 1 categorical variable (is_newsletter_subscriber), 3 float variables, and the rest as integers.
 Models do not like categorical feature, they prefer binary values. We will change that later on. The variable 'coupon_discount_applied' is stored as float, which is surprising to me as I usually only see 15%, 20% or any "nice" integers used for coupon discount. <br/>
-
+Our dataset has 191,287 records, which correspond to the number of customer_id. There is no duplicate nor missing value in our data. <br/>
+Taking a look at each individual feature, there are few comments we can make.
+  - In average, customers' first order was more than 6 years ago.
+  - The last order was made more than 2 years ago in average. Less than 5% of customers have ordered an item less than a week ago (note that we do not know when this dataset was pulled out).
+  - The data has numerous significant outliers. Some of them are suspicious (Is it really possible to have used different shipping addresses 1122? Even for 6 years, that represents more than 15 different shipping addresses per month...)
 
