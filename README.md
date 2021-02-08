@@ -30,7 +30,7 @@ In an effort to make this repository as easy to read as possible, I created 3 di
 I suggest to read them in order.
 
 ## 3. Exploratory Data Analysis (EDA)
-This section is dedicated to EDA. We will explore the data, ask ourselves question, visualize features, and more. <br/>
+This section is dedicated to EDA. We will explore the data, ask ourselves questions, visualize features, and more. <br/>
 Looking at the type of our 33 features, one can note the presence of 1 categorical variable (is_newsletter_subscriber), 3 float variables, and the rest as integers.
 Models do not like categorical feature, they prefer binary values. We will change that later on. The variable 'coupon_discount_applied' is stored as float, which is surprising to me as I usually only see 15%, 20% or any "nice" integers used for coupon discount. <br/>
 Our dataset has 191,287 records, which correspond to the number of customer_id. There is no duplicate nor missing value in our data. <br/>
@@ -40,5 +40,5 @@ Taking a quick look at each individual feature, there are few comments we can ma
   - The data has numerous significant outliers. Some of them are suspicious.
       - Is it really possible to have used 1,122 different shipping addresses? Even for 6 years, that represents more than 15 different shipping addresses per month...
       - 2,022 returns out of 2,209 items purchased for 1 particular customer, really? That's a truly unhappy client...
-
+  - 'revenue' feature has 1 negative value and several 0 values. I think it is reasonable to think there are some errors here.
 
