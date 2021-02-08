@@ -43,5 +43,5 @@ Taking a quick look at each individual feature, there are few comments we can ma
   - 'revenue' feature has 1 negative value and several 0 values. I think it is reasonable to think there are some errors here.
   - 'returns' is described by the formulation problem as "Number of returned **orders**". However, 9.1% of the customers have a number of returns higher than orders. Let's interpret 'returns' as "Number of returned **items**".
 
-When we plot the density distribution of each feature, we can see that they are almost all positevly skewed (see below). <br/>
+When we plot the density distribution of each feature, we can see that they are almost all positevly skewed (see below). <br/><br/>
 ![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/subplots%20GFG%20fig1.png) 
