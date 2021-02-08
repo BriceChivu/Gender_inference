@@ -19,10 +19,16 @@ Identifying and organizing customer groups using specific variables and characte
 Demographic, Behavioral, and Geographical and 3 different types of customer segmentation. Today, we will be interested in the first one, and more specifically customers' ***gender***.
 
 ## 2. Folder content
-In an effort to make this repository as easy to read as possible, I created 3 different ipynb files with a specific purpose. <br/>
+In an effort to make this repository as easy to read as possible, I created 3 different ipynb files with a specific purpose each. <br/>
 1. Exploratory data analysis (EDA)
     - Going through the data, taking notes, and visualizing patterns
 2. Machine Learning models exploration
     - Testing different models, visualizing the output
 3. Pipeline
     - Providing only the code relevant to the output
+
+I suggest to read them in order.
+
+## 3. Exploratory Data Analysis (EDA)
+This section is dedicated to EDA. We will explore the data, ask ourselves question, visualize features, and more. <br/>
+Looking at the type of our 33 features, one can note the presence of 1 categorical variable (is_newsletter_subscriber), 3 float variables, and the rest as integers.
