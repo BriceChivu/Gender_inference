@@ -42,5 +42,5 @@ Taking a quick look at each individual feature, there are few comments we can ma
       - 2,022 returns out of 2,209 items purchased for 1 particular customer, really? That's a truly unhappy client...
   - 'revenue' feature has 1 negative value and several 0 values. I think it is reasonable to think there are some errors here.
   - 'returns' is described by the formulation problem as "Number of returned **orders**". However, 9.1% of the customers have a number of returns higher than orders. Let's interpret 'returns' as "Number of returned **items**".
-<br/>
+
 When we plot the density distribution of each feature, we can see that they are almost all positevly skewed.
