@@ -159,4 +159,14 @@ Based on the remarks above, we will select the following features to train our m
 
 ## 5. Models Exploration
 
-Now that we have selected features that we believe make sense, let's try to fit models and predict labels.
+Now that we have selected features that we believe make sense, let's try to fit models and predict labels. Below is a table summarizing what models we will use and why.
+
+Classification model | Advantages
+------------ | -------------
+Logistic Regression | makes no assumptions about distributions of classes in feature space, gives coefficient size and direction of association (positive or negative), very fast to train and predict, good accuracy
+male_items | 1
+unisex_items | 1
+wapp_items | 13
+wftw_items | 3
+mapp_items | 0
+wacc_items | 0
