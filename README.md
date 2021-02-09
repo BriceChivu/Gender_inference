@@ -50,12 +50,12 @@ Taking a quick look at each individual feature, there are few comments we can ma
 
 When we plot the density distribution of each feature, we can see that they are almost all positively skewed (see below). 
 
-![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/subplots%20GFG%20fig1.png) 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/Pictures/subplots%20GFG%20fig1.png) 
 
 #### b. Gender related items
 
 Let's now take a look at the distribution of female and male items:
-![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/distribution%20male_female%20GFG%20fig2.png) 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/Pictures/distribution%20male_female%20GFG%20fig2.png) 
 <br/> One can note that female_items is more distributed towards the right side of the graph (high values). Indeed, customers have in average 5.3 times more female_items then male_items. We need to make sure our training sample is balanced when fitting our models later on. 
 <br/> Another interesting point, items is the sum of female_items, male_items, and unisex_items. However, for 42% of the records male_items or female_items is not the sum of app, acc and ftw. The reason being some of those items are classified as unisex_items. We will therefore need to see the correlation between those features before deciding to remove them or not.
 
@@ -63,7 +63,7 @@ Let's now take a look at the distribution of female and male items:
 
 As mentioned earlier, the feature 'coupon_discount_applied' is looking quite unnatural. In fact, 0.7% of the customers have an average discount rate of more than 100% (dsitribution plot below) and the upper limit is 57,980%. Funny. <br/>
 We will not try to correct those values however, since I believe it is not characteristic of a particular gender, hence not helping with the prediction.<br/>
-![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/distribution%20coupon%20over%20100%20GFG%20fig3.png) 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/Pictures/distribution%20coupon%20over%20100%20GFG%20fig3.png) 
 
 #### d. Revenue
 
@@ -131,8 +131,8 @@ We will therefore adopt a supervised learning approach.
 Before moving on to machine learning models, let's see if there is anything else to understand from our existing features and some created ones. We will take a look at our 19,580 (this number can change when we tweak some parameters, see EDA ipynb file) customers labeled (9,790 females 9,790 males) and see if we can spot other interesting trends in our data. <br/>
 Let's first plot the mean and median of each feature.
 
-![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/mean_median_labeled%20GFG%20fig4.png) 
-![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/mean_median_labeled_2%20GFG%20fig5.png) 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/Pictures/mean_median_labeled%20GFG%20fig4.png) 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/Pictures/mean_median_labeled_2%20GFG%20fig5.png) 
 
 Few remarks:
    - Female customers have in average a lot more female_items than male_items. This was expected as it was exactly our baseline for label creation.
@@ -175,21 +175,21 @@ For details regarding each models, you can refer to the Machine Learning models 
 The models performing the best to my opinion are **Logistic Regression** and **Support Vector Classification**. <br/>
 Below are graphs for Logistic Regression showing the distribution of labels with regards to different variables.
 
-![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/LogisticRegression%206%20plots%20GFG%20fig6.png) 
-![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/LogisticRegression%204%20plots%20GFG%20fig7.png) 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/Pictures/LogisticRegression%206%20plots%20GFG%20fig6.png) 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/Pictures/LogisticRegression%204%20plots%20GFG%20fig7.png) 
 
 As we can notice, the model is doing a great job at segregating female and male based on the variables given. The feature importances graph below shows that 'f_items', 'orders', and 'returns_per_items' are significant predictors for female label. On the other hand, 'days_since_last_order' and 'm_items' are strong predictors for male label. This tallies with what was discussed earlier.
 
-![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/feature_importances%20Logr%20GFG%20fig8.png) 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/Pictures/feature_importances%20Logr%20GFG%20fig8.png) 
 
 Next, let's take a look at the Support Vector Classification model.
 
-![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/SVC%206%20plots%20GFG%20fig9.png) 
-![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/SVC%204%20plots%20GFG%20fig10.png) 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/Pictures/SVC%206%20plots%20GFG%20fig9.png) 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/Pictures/SVC%204%20plots%20GFG%20fig10.png) 
 
 The boundary between f_items and m_items is even more strict using SVC model. We can confirm this by taking a look at the feature importances below. Only m_items and f_items are driving the predictions.
 
-![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/feature_importances%20SVC%20GFG%20fig11.png) 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/Pictures/feature_importances%20SVC%20GFG%20fig11.png) 
 
 The major difference between the Logistic Regression and SVC predictions is the number of females versus males. In fact, the first model predict around **1.5** more females than males as opposed to **3.7** for SVC. The difference is mainly located around customers with low values of orders and with balanced gender items. SVC tends to classify them as females whereas Logistic Regression chooses males.
 
