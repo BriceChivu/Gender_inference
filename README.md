@@ -124,3 +124,5 @@ macc_items | 1
 mftw_items | 0
  
 Considering those values, I would certainly make my guess as female customer. Of course I might be wrong, it is possible that this customer is a man and has for habit to purchase items for his daughters and wife. But I believe chances should be on our side.
+
+The proposed methodology to tackle our problem is based on the above example. We will label customers having high ratio female_items/male_items or male_items/female_items and use those created labels as a starting point to train our models.
