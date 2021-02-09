@@ -67,4 +67,4 @@ We will not try to correct those values however, since I believe it is not chara
 
 #### d. Revenue
 
-The 'revenue' avriable is the overall amount of Dollar spent per person. This should definitely not be negative, and 0 values are most likely errors as well (I do not believe in free gift).
+The 'revenue' avriable is the overall amount of Dollar spent per person. This should definitely not be negative, and 0 values are most likely errors as well (I doubt a customer can get 13 items for free).
