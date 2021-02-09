@@ -33,7 +33,7 @@ I suggest to read them in order.
 This section is dedicated to EDA. We will explore the data, ask ourselves questions, visualize features, and more. <br/><br/>
 Looking at the type of our 33 features, one can note the presence of 1 categorical variable (is_newsletter_subscriber), 3 float variables, and the rest as integers.
 Models do not like categorical feature, they prefer binary values. We will change that later on. The variable 'coupon_discount_applied' is stored as float, which is surprising to me as I usually only see 15%, 20% or any "nice" integers used for coupon discount. <br/>
-Our dataset has 191,287 records, which correspond to the number of customer_id. There is no duplicate nor missing value in our data. <br/>
+Our dataset has 191,287 records, which correspond to the number of customer_id. There is no duplicate nor missing value in our data. <br/><br/>
 Taking a quick look at each individual feature, there are few comments we can make.
   - In average, customers' first order was more than 6 years ago.
   - The last order was made more than 2 years ago in average. Less than 5% of customers have ordered an item less than a week ago (from the dataset today's date reference).
@@ -48,3 +48,4 @@ When we plot the density distribution of each feature, we can see that they are 
 
 Let's now take a look at the distribution of female and male items:
 ![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/distribution%20male_female%20GFG%20fig2.png) 
+One can note that female_items is more distributed towards the right side of the graph (high values). Indeed, customers have in average 5.3 times more female_items then male_items.
