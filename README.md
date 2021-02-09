@@ -181,3 +181,12 @@ Below are graphs for Logistic Regression showing the distribution of labels with
 As we can notice, the model is doing a great job at segregating female and male based on the variables given. The feature importances graph below shows that 'f_items', 'orders', and 'returns_per_items' are significant predictors for female label. On the other hand, 'days_since_last_order' and 'm_items' are strong predictors for male label. This tallies with what was discussed earlier.
 
 ![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/feature_importances%20Logr%20GFG%20fig8.png) 
+
+Next, let's take a look at the Support Vector Classification model.
+
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/SVC%206%20plots%20GFG%20fig9.png) 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/SVC%204%20plots%20GFG%20fig10.png) 
+
+The boundary between f_items and m_items is even more strict using SVC model. We can confirm this by taking a look at the feature importances below. Only m_items and f_items are driving the predictions.
+
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/feature_importances%20SVC%20GFG%20fig11.png) 
