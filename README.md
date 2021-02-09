@@ -135,7 +135,8 @@ Let's first plot the mean and median of each feature.
 ![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/mean_median_labeled_2%20GFG%20fig5.png) 
 
 Few remarks:
-    - dfds
-    - dsf
+   - Female customers have in average a lot more female_items than male_items. This was expected as it was exactly our baseline for label creation.
+   - Similarly, male customers have in average a lot more male_items than female_items. Again, that is normal.
+   - Females have more orders, items, and returns compared to males.
 
 ## 5. Models Exploration
