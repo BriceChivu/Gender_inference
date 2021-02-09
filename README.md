@@ -71,6 +71,10 @@ The 'revenue' variable is the overall amount of Dollar spent per person. This sh
 
 ## 4. Proposed methodology
 
-When tackling classification problem, it is usually recommended to have a good intuition about the feature importances. One might already sense, without prior exposure to data, that gender was a crucial deciding factor to determine survival rate in the case of the Titanic tragedy. Similarly, if we had to guess the gender of our customers without the help of computing power, how would we do it?
-
+When tackling a classification problem, it is usually recommended to have a good intuition about the feature importances. One might already sense, without prior exposure to data, that gender was a crucial deciding factor to determine survival rate in the case of the Titanic tragedy. Similarly, if we had to guess the gender of our customers without the help of computing power, how would we do it?
+Let's first take a random sample and try to infer the customer's gender.
+Feature | Value
+------------ | -------------
+days_since_first_order | 1122
+days_since_last_order | 44
 
