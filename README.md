@@ -71,10 +71,40 @@ The 'revenue' variable is the overall amount of Dollar spent per person. This sh
 
 ## 4. Proposed methodology
 
-When tackling a classification problem, it is usually recommended to have a good intuition about the feature importances. One might already sense, without prior exposure to data, that gender was a crucial deciding factor to determine survival rate in the case of the Titanic tragedy. Similarly, if we had to guess the gender of our customers without the help of computing power, how would we do it?
+When tackling a classification problem, it is usually recommended to have a good intuition about the feature importances. One might already sense, without prior exposure to data, that gender was a crucial deciding factor to determine survival rate in the case of the Titanic tragedy. Similarly, if we had to guess the gender of our customers without the help of computing power, how would we do it?<br/>
 Let's first take a random sample and try to infer the customer's gender.
 Feature | Value
 ------------ | -------------
 days_since_first_order | 1122
 days_since_last_order | 44
-
+is_newsletter_subscriber | Y
+orders | 5
+items | 6
+returns | 1
+different_addresses | 0
+shipping_addresses | 2
+devices | 2
+vouchers | 2
+cc_payments | 0
+paypal_payments | 5
+afterpay_payments | 1
+female_items | 2
+male_items | 2
+unisex_items | 2
+wapp_items | 0
+wftw_items | 3
+mapp_items | 1
+wacc_items | 0
+macc_items | 1
+mftw_items | 1
+sprt_items | 0
+msite_orders | 2
+desktop_orders | 3
+android_orders | 0
+ios_orders | 0
+work_orders | 0 
+home_orders | 5
+parcelpoint_orders | 0
+coupon_discount_applied | 0.0944
+revenue | 504.94
+customer_id | 3.242546e+09
