@@ -170,3 +170,5 @@ K-Nearest Neighbors | no training Period, easy to implement
 Random Forest | will not overfit, high accuracy
 Support Vector Classification | works well when clear margin of separation between classes, memory efficient
 
+For details regarding each models, you can refer to the Machine Learning models exploration ipynb file.
+
