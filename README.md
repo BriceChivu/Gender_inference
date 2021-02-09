@@ -154,8 +154,8 @@ Based on the remarks above, we will select the following features to train our m
   - 'days_since_last_order'
   - 'orders'
   - 'avg_revenue_per_item'
-  - 'f_items'
-  - 'm_items'
+  - 'f_items' (sum of female related items)
+  - 'm_items' (sum of male related items)
   - 'returns_per_item'
 
 ## 5. Models Exploration
