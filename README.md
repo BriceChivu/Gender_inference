@@ -191,7 +191,7 @@ The boundary between f_items and m_items is even more strict using SVC model. We
 
 ![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/feature_importances%20SVC%20GFG%20fig11.png) 
 
-The major difference between the Logistic Regression and SVC predictions is the number of females versus males. In fact, the first model predict around **1.34** more females than males as opposed to **3.7** for SVC. The difference is mainly located around customers with low values of orders and with balanced gender items. SVC tends to classify them as females whereas Logistic Regression chooses males.
+The major difference between the Logistic Regression and SVC predictions is the number of females versus males. In fact, the first model predict around **1.5** more females than males as opposed to **3.7** for SVC. The difference is mainly located around customers with low values of orders and with balanced gender items. SVC tends to classify them as females whereas Logistic Regression chooses males.
 
 ## 6. Evaluation
 
