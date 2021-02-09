@@ -147,7 +147,7 @@ Based on our labeled customers, it seems that:
 1. females make more orders as opposed to males,
 2. females do shopping more often.
 
-Based on the remarks above, we will select the following features for train our models:
+Based on the remarks above, we will select the following features to train our models:
   - 'days_since_last_order'
   - 'orders'
   - 'avg_revenue_per_item'
@@ -155,3 +155,5 @@ Based on the remarks above, we will select the following features for train our 
   - 'm_items'
 
 ## 5. Models Exploration
+
+Now that we have selected features that we believe make sense, let's try to fit models and predict labels.
