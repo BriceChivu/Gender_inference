@@ -140,12 +140,14 @@ Few remarks:
    - Males have higher 'mapp_items', 'macc_items', and 'mftw_items' and females have higher 'wapp_items', 'wacc_items', and 'wftw_items'. This is to be expected since we can sense a significant correlation between those items and female_items/male_items.
    - Females have more orders, items, and returns compared to males.
    - One can note the presence of a new feature called 'avg_revenue_per_item'. Its purpose is to capture the information of 'revenue' and 'items' into 1 variable. We can see that females have in average a higher 'avg_revenue_per_item' meaning that they tend to purchase more expensive items.
+   - The feature 'returns_per_item' shows the average number of returns per item. We can see that females tend to return more than males.
 
 
 **Conclusion** <br/>
 Based on our labeled customers, it seems that:
 1. females make more orders as opposed to males,
-2. females do shopping more often.
+2. females do shopping more often,
+3. females tend to return orders more often.
 
 Based on the remarks above, we will select the following features to train our models:
   - 'days_since_last_order'
@@ -153,6 +155,7 @@ Based on the remarks above, we will select the following features to train our m
   - 'avg_revenue_per_item'
   - 'f_items'
   - 'm_items'
+  - 'returns_per_item'
 
 ## 5. Models Exploration
 
