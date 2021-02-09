@@ -139,19 +139,19 @@ Few remarks:
    - Similarly, male customers have in average a lot more male_items than female_items. Again, that is normal.
    - Males have higher 'mapp_items', 'macc_items', and 'mftw_items' and females have higher 'wapp_items', 'wacc_items', and 'wftw_items'. This is to be expected since we can sense a significant correlation between those items and female_items/male_items.
    - Females have more orders, items, and returns compared to males.
-   - The 'revenue' feature is generally higher for females compared to males. This is not a surprise since 'revenue' is highly correlated to 'orders' and 'items'.
    - One can note the presence of a new feature called 'avg_revenue_per_item'. Its purpose is to capture the information of 'revenue' and 'items' into 1 variable. We can see that females have in average a higher 'avg_revenue_per_item' meaning that they tend to purchase more expensive items.
-   - Similarly, I added a feature called 'electronic_payment' which sum the different methods of payment (cc_payments, paypal_payments, and afterpay_payments). One can note the higher value in average for females. It seems that males prefer to pay by cash as opposed to females.
-   - Again, I added a feature called 'shipped_items' which sum the different shipped points (work_orders, home_orders, and parcelpoint_orders). It seems that females prefer to get their items delivered as opposed to males.
-   - The feature 'online_orders' was created to show the number of items ordered online (sum of msite_orders, desktop_orders, android_orders, ios_orders). Once again females have a tendancy to purchase items online as compared to males.
-   - Finally, the 'days_since_last_order' feature tells us that females have in general their last activity closer to today's date.
+
 
 **Conclusion** <br/>
 Based on our labeled customers, it seems that:
-1. females purchase more through online services compared to males,
-2. females use more electronic payment than males,
-3. females make more orders as opposed to males,
-4. females do shopping more often.
+1. females make more orders as opposed to males,
+2. females do shopping more often.
 
+Based on the remarks above, we will select the following features for train our models:
+  - 'days_since_last_order'
+  - 'orders'
+  - 'avg_revenue_per_item'
+  - 'f_items'
+  - 'm_items'
 
 ## 5. Models Exploration
