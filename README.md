@@ -72,7 +72,7 @@ The 'revenue' variable is the overall amount of Dollar spent per person. This sh
 ## 4. Proposed methodology
 
 When tackling a classification problem, it is usually recommended to have a good intuition about the feature importances. One might already sense, without prior exposure to data, that gender was a crucial deciding factor to determine survival rate in the case of the Titanic tragedy. Similarly, if we had to guess the gender of our customers without the help of computing power, how would we do it?<br/>
-Let's first take a random sample and try to infer the customer's gender.
+Let's first take a random sample and try to have a guess.
 Feature | Value
 ------------ | -------------
 days_since_first_order | 1122
@@ -108,3 +108,19 @@ parcelpoint_orders | 0
 coupon_discount_applied | 0.0944
 revenue | 504.94
 customer_id | 3.242546e+09
+
+Hard to say... If you ask me, I would probably label this customer as female because of wftw_items being 3 compared to the other gender related items. But I wouldn't be very confident about my choice. <br/>
+Now, what if instead this customer had the following values:
+Feature | Value
+------------ | -------------
+female_items | 15
+male_items | 1
+unisex_items | 1
+wapp_items | 13
+wftw_items | 3
+mapp_items | 0
+wacc_items | 0
+macc_items | 1
+mftw_items | 0
+ 
+Considering those values, I would certainly make my guess as female customer. Of course I might be wrong, it is possible that this customer is a man and has for habit to purchase items for his daughters and wife. But I believe chances should be on our side.
