@@ -201,6 +201,13 @@ Obviously, the predictions depend highly on the input features, that is why we s
 
 ## 7. Further work
 
+To improve the accuracy of our predictions, the new features below might come handy:
+1. Product type (Is it make-up? Soccer clothes? Video games?)
+2. Customer name (Jessica or Bryan?)
+3. Email address (jessicabeldore@gmail.com or bryanstanley@gmail.com?)
+4. Reviews (NLP gender classification using comments or reviews)
+5. Time spent choosing products before buying (e.g. average time spent browsing before adding to cart)
+
 After predicting gender, it would be interesting to infer other customer information such as the age, the residential address, purchase habits, and more. Those information may reveal themselves crucial when tailoring products or services to clients. <br/>
 If those data points are not directly accessible, one might look at other features in order to perform perdictions (e.g. the product category might be a strong predictor to target customer age, or the frequency of orders per day of the week might give a good sense of customer purchase habits).
 
