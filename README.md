@@ -67,10 +67,10 @@ We will not try to correct those values however, since I believe it is not chara
 
 #### d. Revenue
 
-The 'revenue' avriable is the overall amount of Dollar spent per person. This should definitely not be negative, and 0 values are most likely errors as well (I doubt a customer can get 13 items for free). We will therefore replace the 0 values by the median of each items' value (e.g. the median of 'revenue' for 1 item is 63.61, which will replace the 0 for items being equal to 1).
+The 'revenue' variable is the overall amount of Dollar spent per person. This should not be negative, and 0 values are most likely errors as well (I doubt a customer can get 13 items for free). We will therefore replace the 0 values by the median of each items' value (e.g. the median of 'revenue' for 1 item is 63.61, which will replace the 0 for items being equal to 1).
 
 ## 4. Proposed methodology
 
-
+When tackling classification problem, it is usually recommended to have a good intuition about the feature importances. One might already sense, without prior exposure to data, that gender was a crucial deciding factor to determine survival rate in the case of the Titanic tragedy. Similarly, if we had to guess the gender of our customers without the help of computing power, how would we do it?
 
 
