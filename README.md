@@ -193,5 +193,17 @@ The boundary between f_items and m_items is even more strict using SVC model. We
 
 ## 6. Evaluation
 
-While it is pretty straighforward to judge of the accuracy of each model based on our created labels, it is much more complex to know in advance whether those models would perform well with real labels. <br/>
-Obviously, the predictions depend highly on the input features, that is why we spent some time defining the correct variables to consider for our models. I believe what we have done so far is coherent in terms of business sense. However, I do believe the predictions will be somewhat off when it comes to customers with low number of orders and with balanced gender items. We can be more confident on our predictions for customers with high female_items/male_items ratio or high male_items/female_items ratio.
+While it is pretty straighforward to judge of the accuracy of each model based on our created labels, it is much more complex to know in advance whether those models would perform well with real labels. 
+
+Obviously, the predictions depend highly on the input features, that is why we spent some time defining the correct variables to consider for our models. I believe what we have done so far is coherent in terms of business sense. However, I do believe the predictions will be somewhat off when it comes to customers with low number of orders and with balanced gender items. Nevertheless, we can be confident on our predictions for customers with high female_items/male_items ratio or high male_items/female_items ratio.
+
+## 7. Further work
+
+After predicting gender, it would be interesting to infer other customer information such as the age, the residential address, purchase habits, and more. Those information may reveal themselves crucial when tailoring products or services to clients. <br/>
+If those data points are not directly accessible, one might look at other features in order to perform perdictions (e.g. the product category might be a strong predictor to target customer age, or the frequency of orders per day of the week might give a good sense of customer purchase habits).
+
+## 8. Last words
+
+I would like to thank Global Fashion Group for giving me the opportunity to work on this interesting problem. It was an intensive yet very educational exercise.
+
+## 9. References
