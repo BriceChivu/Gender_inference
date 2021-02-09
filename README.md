@@ -138,6 +138,9 @@ Few remarks:
    - Female customers have in average a lot more female_items than male_items. This was expected as it was exactly our baseline for label creation.
    - Similarly, male customers have in average a lot more male_items than female_items. Again, that is normal.
    - Females have more orders, items, and returns compared to males.
-   - 
+   - The 'revenue' feature is generally higher for females compared to males. This is not a surprise since 'revenue' is highly correlated to 'orders' and 'items'.
+   - One can note the presence of a new feature called 'avg_revenue_per_item'. Its purpose is to capture the information of 'revenue' and 'items' into 1 variable. We can see that females have in average a higher 'avg_revenue_per_item' meaning that they tend to purchase more expensive items.
+
+
 
 ## 5. Models Exploration
