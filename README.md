@@ -207,7 +207,12 @@ If those data points are not directly accessible, one might look at other featur
 I would like to thank Global Fashion Group for giving me the opportunity to work on this interesting problem. It was an intensive yet very educational exercise.
 
 ## 9. References
-##### Reading on clustering and semi-supervised learning
+##### Exploring alternatives: Reading on clustering and semi-supervised learning
 1. https://www.cs.cornell.edu/~tomf/publications/supervised_kmeans-08.pdf
 2. https://stackoverflow.com/questions/27860302/in-sklearn-machine-learning-is-there-any-way-to-classify-text-without-target-la
 3. https://sci2s.ugr.es/ssl#:~:text=In%20this%20context%2C%20traditional%20supervised,data%20to%20build%20a%20model.&text=Semi%2DSupervised%20Classification%20(SSC)%3A,input%20distribution%20of%20unlabeled%20instances
+
+##### Interesting articles on the topic
+4. https://www.insider.com/women-more-expensive-products-2018-8#kids-clothing-is-pricier-for-girls-too-9
+5. https://www.freshworks.com/crm/customer-segmentation/?tactic_id=4255552&utm_source=Google-Adwords&utm_campaign=Fsales-Search-ANZ-DSA&utm_term=&device=c&utm_medium=Fsales-Search-ANZ-DSA&gclid=Cj0KCQiA34OBBhCcARIsAG32uvMRtWII4t1w72xig6FODq-pM_292Huzq1tRc2ivRM1vkbvs5FORrY0aAhfoEALw_wcB
+6. https://www.emerald.com/insight/content/doi/10.1108/JPBM-06-2018-1917/full/html 
