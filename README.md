@@ -137,10 +137,11 @@ Let's first plot the mean and median of each feature.
 Few remarks:
    - Female customers have in average a lot more female_items than male_items. This was expected as it was exactly our baseline for label creation.
    - Similarly, male customers have in average a lot more male_items than female_items. Again, that is normal.
-   - Males have higher 'mapp_items', 'macc_items', and 'mftw_items' and females have higher 'wapp_items', 'wacc_items', and 'wftw_items'. This is to be expected since we can sense a significant correlation between those items and female_items/male_items.
-   - Females have more orders, items, and returns compared to males.
+   - Males have higher 'mapp_items', 'macc_items', and 'mftw_items' and females have higher 'wapp_items', 'wacc_items', and 'wftw_items'. This is to be expected since there is a significant correlation between those items and female_items/male_items.
+   - Females have more orders compared to males.
    - One can note the presence of a new feature called 'avg_revenue_per_item'. Its purpose is to capture the information of 'revenue' and 'items' into 1 variable. We can see that females have in average a higher 'avg_revenue_per_item' meaning that they tend to purchase more expensive items.
    - The feature 'returns_per_item' shows the average number of returns per item. We can see that females tend to return more than males.
+   - Females have in average higher 'items', 'vouchers', 'cc_payments', 'paypal_payments', 'msite_orders', 'desktop_orders' and 'home_orders'. This is explained by the fact that those features are highly correlated to the number of orders. By looking at 'online_orders', 'shipped_items', and 'electronic_payment', we can see that there is actually no difference between male and female with regards to those particular variables.
 
 
 **Conclusion** <br/>
