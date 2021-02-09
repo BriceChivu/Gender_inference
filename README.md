@@ -34,6 +34,7 @@ I suggest to read them in order.
 ## 3. Exploratory Data Analysis (EDA)
 This section is dedicated to EDA. We will explore the data, ask ourselves questions, visualize features, and more. 
 
+#### a. High-level notes 
 Looking at the type of our 33 features, one can note the presence of 1 categorical variable (is_newsletter_subscriber), 3 float variables, and the rest as integers.
 Models do not like categorical feature, they prefer binary values. We will change that later on. <br/>
 Our dataset has 191,287 records, which correspond to the number of customer_id. There is no duplicate nor missing value in our data. 
@@ -51,11 +52,19 @@ When we plot the density distribution of each feature, we can see that they are 
 
 ![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/subplots%20GFG%20fig1.png) 
 
+#### b. Gender related items
+
 Let's now take a look at the distribution of female and male items:
 ![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/distribution%20male_female%20GFG%20fig2.png) 
 <br/> One can note that female_items is more distributed towards the right side of the graph (high values). Indeed, customers have in average 5.3 times more female_items then male_items. We need to make sure our training sample is balanced when fitting our models later on. 
 <br/> Another interesting point, items is the sum of female_items, male_items, and unisex_items. However, for 42% of the records male_items or female_items is not the sum of app, acc and ftw. We will therefore need to see the correlation between those features before deciding to remove them.
 
+#### c. Coupon discount
+
 As mentioned earlier, the feature 'coupon_discount_applied' is looking quite unnatural. In fact, 0.7% of the customers have an average discount rate of more than 100% (dsitribution plot below) and the upper limit is 57,980%. Funny. <br/>
 We will not try to correct those values however, since I believe it is not characteristic of a particular gender, hence not helping with the prediction.<br/>
 ![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/distribution%20coupon%20over%20100%20GFG%20fig3.png) 
+
+#### d. Revenue
+
+The 'revenue' avriable is the overall amount of Dollar spent per person. This should definitely not be negative, and 0 values are most likely errors as well (I do not believe in free gift).
