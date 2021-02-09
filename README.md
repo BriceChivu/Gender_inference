@@ -57,7 +57,7 @@ When we plot the density distribution of each feature, we can see that they are 
 Let's now take a look at the distribution of female and male items:
 ![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/distribution%20male_female%20GFG%20fig2.png) 
 <br/> One can note that female_items is more distributed towards the right side of the graph (high values). Indeed, customers have in average 5.3 times more female_items then male_items. We need to make sure our training sample is balanced when fitting our models later on. 
-<br/> Another interesting point, items is the sum of female_items, male_items, and unisex_items. However, for 42% of the records male_items or female_items is not the sum of app, acc and ftw. We will therefore need to see the correlation between those features before deciding to remove them.
+<br/> Another interesting point, items is the sum of female_items, male_items, and unisex_items. However, for 42% of the records male_items or female_items is not the sum of app, acc and ftw. The reason being some of those items are classified as unisex_items. We will therefore need to see the correlation between those features before deciding to remove them or not.
 
 #### c. Coupon discount
 
