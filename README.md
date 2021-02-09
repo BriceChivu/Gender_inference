@@ -178,5 +178,6 @@ Below are graphs for Logistic Regression showing the distribution of labels with
 ![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/LogisticRegression%206%20plots%20GFG%20fig6.png) 
 ![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/LogisticRegression%204%20plots%20GFG%20fig7.png) 
 
-As we can notice, the model is doing a great job at segregating female and male based on the variables given. The feature importances graph shows that 'f_items', 'orders', and 'returns_per_items' are significant predictors for female label. On the other hand, 'days_since_last_order' and 'm_items' are strong predictors for male label. This tallies with what was discussed earlier.
+As we can notice, the model is doing a great job at segregating female and male based on the variables given. The feature importances graph below shows that 'f_items', 'orders', and 'returns_per_items' are significant predictors for female label. On the other hand, 'days_since_last_order' and 'm_items' are strong predictors for male label. This tallies with what was discussed earlier.
 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/feature_importances%20Logr%20GFG%20fig8.png) 
