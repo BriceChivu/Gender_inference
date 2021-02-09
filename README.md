@@ -69,6 +69,8 @@ We will not try to correct those values however, since I believe it is not chara
 
 The 'revenue' avriable is the overall amount of Dollar spent per person. This should definitely not be negative, and 0 values are most likely errors as well (I doubt a customer can get 13 items for free). We will therefore replace the 0 values by the median of each items' value (e.g. the median of 'revenue' for 1 item is 63.61, which will replace the 0 for items being equal to 1).
 
-#### e. Before we move on to machine learning models
+## 4. Proposed methodology
+
+
 
 
