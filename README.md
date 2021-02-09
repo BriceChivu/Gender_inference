@@ -131,6 +131,8 @@ We will therefore adopt a supervised learning approach.
 Before moving on to machine learning models, let's see if there is anything else to understand from our features. We will take a look at our 11,774 (this number can change when we tweak some parameters, see EDA ipynb file) customers labeled and see if we can spot other interesting trends in our data. <br/>
 Let's first plot the mean and median of each feature.
 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/mean_median_labeled%20GFG%20fig4.png) 
 
+![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/mean_median_labeled_2%20GFG%20fig5.png) 
 
 ## 5. Models Exploration
