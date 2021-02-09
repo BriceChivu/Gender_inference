@@ -6,11 +6,11 @@ This repository contains the project submission for Data Scientist role in the D
   2. Folder content
   3. Exploratory Data Analysis (EDA)
   4. Proposed Methodology
-  4. Models exploration
-  5. Evaluation
-  6. Further work
-  7. Last words
-  8. References
+  5. Models exploration
+  6. Evaluation
+  7. Further work
+  8. Last words
+  9. References
 
 
 ## 1. Introduction
@@ -125,4 +125,12 @@ mftw_items | 0
  
 Considering those values, I would certainly make my guess as female customer. Of course I might be wrong, it is possible that this customer is a man and has for habit to purchase items for his daughters and wife. But I believe chances should be on our side.
 
-The proposed methodology to tackle our problem is based on the above example. We will label customers having high ratio female_items/male_items or male_items/female_items and use those created labels as a starting point to train our models.
+The **proposed methodology** to tackle our problem is based on the above example. We will label some customers having high ratio female_items/male_items or male_items/female_items and use those created labels as a starting point to train our models.
+We will therefore adopt a supervised learning approach.
+
+Before moving on to machine learning models, let's see if there is anything else to understand from our features. We will take a look at our 11,774 (this number can change when we tweak some parameters, see EDA ipynb file) customers labeled and see if we can spot other interesting trends in our data. <br/>
+Let's first plot the mean and median of each feature.
+
+
+
+## 5. Models Exploration
