@@ -128,11 +128,14 @@ Considering those values, I would certainly make my guess as female customer. Of
 The **proposed methodology** to tackle our problem is based on the above example. We will label some customers having high ratio female_items/male_items or male_items/female_items and use those created labels as a starting point to train our models.
 We will therefore adopt a supervised learning approach.
 
-Before moving on to machine learning models, let's see if there is anything else to understand from our features. We will take a look at our 11,774 (this number can change when we tweak some parameters, see EDA ipynb file) customers labeled and see if we can spot other interesting trends in our data. <br/>
+Before moving on to machine learning models, let's see if there is anything else to understand from our features. We will take a look at our 11,774 (this number can change when we tweak some parameters, see EDA ipynb file) customers labeled (5,887 females 5,887 males) and see if we can spot other interesting trends in our data. <br/>
 Let's first plot the mean and median of each feature.
 
 ![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/mean_median_labeled%20GFG%20fig4.png) 
-
 ![Settings Window](https://github.com/BriceChivu/GFG_Data_Scientist_Task/blob/main/mean_median_labeled_2%20GFG%20fig5.png) 
+
+Few remarks:
+    - dfds
+    - dsf
 
 ## 5. Models Exploration
