@@ -18,7 +18,7 @@ The one-size-fits-all marketing approach is getting old. Customers are asking fo
 
 Identifying and organizing customer groups using specific variables and characteristics they have in common is commonly referred as **Customer Segmentation**. These variables could be personality traits, demographics, geography, or even their income. Segmentation provides in-depth consumer data that helps marketers tailor their products and services to customers’ needs. This personalization gives companies a competitive advantage and a better chance at customer conversion and brand loyalty.
 
-Demographic, Behavioral, and Geographical and 3 different types of customer segmentation. Today, we will be interested in the first one, and more specifically customers' ***gender***.
+Demographic, Behavioral, and Geographical are 3 different types of customer segmentation. Today, we will be interested in the first one, and more specifically customers' ***gender***.
 
 ## 2. Folder content
 In an effort to make this repository as easy to read as possible, I created 3 different ipynb files with a specific purpose each. <br/>
@@ -45,7 +45,7 @@ Taking a quick look at each individual feature, there are few comments we can ma
   - The data has numerous significant outliers. Some of them are suspicious.
       - Is it really possible to have used 1,122 different shipping addresses? Even for 6 years, that represents more than 15 different shipping addresses per month...
       - 2,022 returns out of 2,209 items purchased for 1 particular customer, really? That's a truly unhappy client...
-  - 'revenue' feature has 1 negative value and several 0 values. I think it is reasonable to think there are some errors here.
+  - 'revenue' feature has 1 negative value and several 0 values. It is reasonable to think there are some errors here.
   - 'returns' is described by the formulation problem as "Number of returned **orders**". However, 9.1% of the customers have a number of returns higher than orders. Let's assume that the feature 'returns' is correct, so we will interpret it as "Number of returned **items**".
 
 When we plot the density distribution of each feature, we can see that they are almost all positively skewed (see below). 
