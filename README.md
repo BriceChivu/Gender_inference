@@ -142,7 +142,7 @@ Few remarks:
    - One can note the presence of a new feature called 'avg_revenue_per_item'. Its purpose is to capture the information of 'revenue' and 'items' into 1 variable. We can see that females have in average a higher 'avg_revenue_per_item' meaning that they tend to purchase more expensive items.
    - The feature 'returns_per_item' shows the average number of returns per item. We can see that females tend to return more than males.
    - Females have in average higher 'items', 'vouchers', 'cc_payments', 'paypal_payments', 'msite_orders', 'desktop_orders' and 'home_orders'. This is explained by the fact that those features are highly correlated to the number of orders. By looking at 'online_orders', 'shipped_items', and 'electronic_payment', we can see that there is actually no difference between male and female with regards to those particular variables.
-   - The feature 'days_since_last_order' suggests that females's purchase frequency is higher than males'.
+   - The feature 'days_since_last_order' suggests that females' purchase frequency is higher than males'.
 
 
 **Conclusion** <br/>
