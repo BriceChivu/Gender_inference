@@ -145,7 +145,7 @@ Few remarks:
    - The feature 'days_since_last_order' suggests that females' purchase frequency is higher than males'.
 
 
-**Conclusion** <br/>
+### **Conclusion** <br/>
 Based on our labeled customers, it seems that:
 1. females make more orders as opposed to males,
 2. females do shopping more often,
