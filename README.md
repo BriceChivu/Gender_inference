@@ -221,11 +221,11 @@ I would like to thank Global Fashion Group for giving me the opportunity to work
 
 ## 9. References
 ##### Exploring alternatives: Reading on clustering and semi-supervised learning
-1. Supervised K-means clustering https://www.cs.cornell.edu/~tomf/publications/supervised_kmeans-08.pdf
-2. Stackoverflow research https://stackoverflow.com/questions/27860302/in-sklearn-machine-learning-is-there-any-way-to-classify-text-without-target-la
-3. Transductive learning and Inductive learning https://sci2s.ugr.es/ssl#:~:text=In%20this%20context%2C%20traditional%20supervised,data%20to%20build%20a%20model.&text=Semi%2DSupervised%20Classification%20(SSC)%3A,input%20distribution%20of%20unlabeled%20instances
-4. Airbnb case https://medium.com/airbnb-engineering/discovering-and-classifying-in-app-message-intent-at-airbnb-6a55f5400a0c 
+1. Supervised K-means clustering https://bit.ly/3aKHBD6
+2. Stackoverflow research http://bit.ly/3buaum0
+3. Transductive learning and Inductive learning http://bit.ly/3skdus1
+4. Airbnb case http://bit.ly/2MkxuLQ
 
 ##### Interesting articles on customers' gender topic
-4. Products more expensive for women than for men https://www.insider.com/women-more-expensive-products-2018-8#kids-clothing-is-pricier-for-girls-too-9
-5. Different types of customer segmentation https://www.freshworks.com/crm/customer-segmentation/?tactic_id=4255552&utm_source=Google-Adwords&utm_campaign=Fsales-Search-ANZ-DSA&utm_term=&device=c&utm_medium=Fsales-Search-ANZ-DSA&gclid=Cj0KCQiA34OBBhCcARIsAG32uvMRtWII4t1w72xig6FODq-pM_292Huzq1tRc2ivRM1vkbvs5FORrY0aAhfoEALw_wcB
+4. Products more expensive for women than for men http://bit.ly/3bwFYIb
+5. Different types of customer segmentation http://bit.ly/3dEv4mr
