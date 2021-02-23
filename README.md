@@ -209,6 +209,9 @@ To improve the accuracy of our predictions, the new features below might come ha
 4. Reviews (NLP gender classification using comments or reviews)
 5. Time spent choosing products before buying (e.g. average time spent browsing before adding to cart)
 
+As mentioned before, the initial labels are critical to predictions' accuracy. As the famous saying goes: "garbage in, garbage out". Having real labels attached to our input data could immensely improve our forecast. <br/>
+A solution to this could be to collect a group of labels attached to our data, then use a semi-supervised learning approach to propagate labels (think of LabelPropagation in sklearn library) and finally implement a supervised learning model to conclude the predictions.
+
 After predicting gender, it would be interesting to infer other customer information such as the age, the residential address, purchase habits, and more. Those information may reveal themselves crucial when tailoring products or services to clients. <br/>
 If those data points are not directly accessible, one might look at other features in order to perform perdictions (e.g. the product category might be a strong predictor to target customer age, or the frequency of orders per day of the week might give a good sense of customer purchase habits).
 
