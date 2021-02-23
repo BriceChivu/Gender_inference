@@ -226,3 +226,4 @@ I would like to thank Global Fashion Group for giving me the opportunity to work
 4. https://www.insider.com/women-more-expensive-products-2018-8#kids-clothing-is-pricier-for-girls-too-9
 5. https://www.freshworks.com/crm/customer-segmentation/?tactic_id=4255552&utm_source=Google-Adwords&utm_campaign=Fsales-Search-ANZ-DSA&utm_term=&device=c&utm_medium=Fsales-Search-ANZ-DSA&gclid=Cj0KCQiA34OBBhCcARIsAG32uvMRtWII4t1w72xig6FODq-pM_292Huzq1tRc2ivRM1vkbvs5FORrY0aAhfoEALw_wcB
 6. https://www.emerald.com/insight/content/doi/10.1108/JPBM-06-2018-1917/full/html 
+7. https://medium.com/airbnb-engineering/discovering-and-classifying-in-app-message-intent-at-airbnb-6a55f5400a0c 
