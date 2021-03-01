@@ -1,5 +1,3 @@
-# GFG Data Scientist Task
-This repository contains the project submission for Data Scientist role in the Data Science and Analytics Department at Global Fashion Group (GFG).
 
 ## Contents
   1. Introduction
