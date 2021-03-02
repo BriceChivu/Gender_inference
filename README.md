@@ -8,8 +8,7 @@
   5. Models exploration
   6. Evaluation
   7. Further work
-  8. Last words
-  9. References
+  8. References
 
 
 ## 1. Introduction
@@ -217,11 +216,7 @@ A solution to this could be to collect a group of labels attached to our data, t
 After predicting gender, it would be also interesting to infer other customer information such as the **age**, the residential **address**, **purchase habit**s, and more. Those information may reveal themselves crucial when tailoring products or services to clients. <br/>
 If those data points are not directly accessible, one might look at other features in order to perform perdictions (e.g. the product category might be a strong predictor to target customer age, or the frequency of orders per day of the week might give a good sense of customer purchase habits).
 
-## 8. Last words
-
-I would like to thank Global Fashion Group for giving me the opportunity to work on this interesting problem. It was an intensive yet very educational exercise.
-
-## 9. References
+## 8. References
 ##### Exploring alternatives: Reading on clustering and semi-supervised learning
 1. Supervised K-means clustering https://bit.ly/3aKHBD6
 2. Stackoverflow research http://bit.ly/3buaum0
