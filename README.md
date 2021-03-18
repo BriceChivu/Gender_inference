@@ -226,3 +226,5 @@ If those data points are not directly accessible, one might look at other featur
 ##### Interesting articles on customers' gender topic
 4. Products more expensive for women than for men http://bit.ly/3bwFYIb
 5. Different types of customer segmentation http://bit.ly/3dEv4mr
+
+
